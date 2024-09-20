@@ -21,4 +21,23 @@ class DashboardController extends Controller
             'success' => Pengaduan::where('status', 'Selesai')->count(),
         ]);
     }
+
+
+
+    public function indexchart()
+    {
+        // Ambil jumlah pengaduan berdasarkan tanggal
+        $pengaduanByDate = DB::table('pengaduan')
+            ->select(DB::raw('DATE(created_at) as date'), DB::raw('count(*) as total'))
+            ->groupBy('date')
+            ->get();
+
+        // Kirim data ke view
+        return view('admin.dashboard', [
+            'pengaduanByDate' => $pengaduanByDate,
+            // data lain yang diperlukan
+        ]);
+    }
+
 }
+
