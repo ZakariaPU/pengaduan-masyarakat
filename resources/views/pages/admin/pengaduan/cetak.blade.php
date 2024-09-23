@@ -19,7 +19,7 @@
 <body>
   <div class="container">
     <div class="title text-center mb-5">
-      <h2>Layanan Pengaduan Masyarakat Online</h2>
+      <h2>Sistem Informasi Pengaduan Layanan Internet & Telepon</h2>
     </div>
     <hr class="solid">
 

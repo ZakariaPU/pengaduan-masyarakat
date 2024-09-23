@@ -3,7 +3,23 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1> <a href="index.html"><img src="/"class="img-fluid"><a href="#">SIGAPNET</a></h1>
+        <h1>
+          <a href="index.html">
+            <img id="logo-sigapnet" src="assets/img/logo_sigapnet.png" class="img-fluid" alt="SIGAPNET Logo">
+          </a>
+          <a href="index.html"></a>
+        </h1>
+
+        <style>
+
+          #logo-sigapnet {
+            width: 80px;
+            height: auto;
+          }
+
+        </style>
+      
+        
         <!-- Uncomment below if you prefer to use an image logo -->
        
       </div>

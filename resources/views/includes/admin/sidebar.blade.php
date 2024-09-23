@@ -1,11 +1,21 @@
 <!-- Desktop sidebar -->
 <aside class="z-20 hidden w-64 overflow-y-auto bg-white dark:bg-gray-800 md:block flex-shrink-0">
   <div class="py-4 text-gray-500 dark:text-gray-400">
-    <img src="{{ asset('img/logo.svg')}}" alt=""
-      class="inline-flex ml-3 items-center transform transition hover:scale-125 duration-300 ease-in-out" />
-    <a class="ml-3 text-lg font-bold text-gray-800 dark:text-gray-200" href="/">
-      APLIKASIKU
-    </a>
+    
+    <div class="flex items-center justify-center">
+      <img src="assets/img/logo_sigapnet_biru.png" alt="SIGAPNET Logo" class="w-12 h-auto">
+      <span class="ml-3 text-lg font-semibold text-gray-800 dark:text-gray-200 font-poppins">SIGAPNET</span>
+    </div>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+      <Style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+      .font-poppins {
+        font-family: 'Poppins', sans-serif;
+      }
+      </style>
+
     <ul class="mt-6">
       <li class="relative px-6 py-3">
         <span

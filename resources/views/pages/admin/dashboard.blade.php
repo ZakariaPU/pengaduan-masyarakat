@@ -1,3 +1,12 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<Style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+</style>
+
 @extends('layouts.admin')
 
 @section('title')
@@ -7,7 +16,7 @@ Dashboard
 @section('content')
 <main class="h-full overflow-y-auto">
   <div class="container px-6 mx-auto grid">
-    <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
+    <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200 font-poppins">
       Dashboard
     </h2>
 

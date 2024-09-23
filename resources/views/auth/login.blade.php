@@ -3,9 +3,16 @@
         
         <x-slot name="logo">
             <a href="/">
-                <img class="w-20 h-20" src="{{ asset('img/logo.svg')}} " alt="Logo">
+                <img class="custom-logo-size" src="assets/img/logo_sigapnet_biru.png" alt="Logo">
             </a>
         </x-slot>
+
+        <style>
+            .custom-logo-size {
+            width: 120px;
+            height: auto; /* Memastikan rasio tetap */
+          }
+        </style>
 
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
