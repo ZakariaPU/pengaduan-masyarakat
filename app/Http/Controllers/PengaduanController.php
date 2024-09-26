@@ -21,8 +21,6 @@ class PengaduanController extends Controller
         return view('pages.admin.pengaduan.index',[
             'items' => $items
         ]);
-
-
     }
 
     /**
@@ -106,4 +104,5 @@ class PengaduanController extends Controller
         Alert::success('Berhasil', 'Pengaduan telah di hapus');
         return redirect('admin/pengaduans');
     }
+
 }

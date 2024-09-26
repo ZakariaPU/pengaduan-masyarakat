@@ -1,10 +1,20 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+// use App\Http\Controllers\VisitorController;
+use App\Http\Controllers\VisitorCounterController;
+use App\Http\Controllers\PengaduanController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', [VisitorController::class, 'index']);
+
+
+Route::get('/', [VisitorCounterController::class, 'index']);
+
+
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // Admin/Petugas
 Route::prefix('admin')

@@ -59,6 +59,7 @@ class MasyarakatController extends Controller
         $data['user_id']=$id;
         $data['name']=$name;
         $data['image'] = $request->file('image')->store('assets/laporan', 'public');
+        // $path = $request->file('image')->store('assets/laporan', 'public');
 
 
 

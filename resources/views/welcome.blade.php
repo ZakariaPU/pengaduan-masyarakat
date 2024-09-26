@@ -35,7 +35,6 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
@@ -48,7 +47,11 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="assets/img/hero.svg" class="img-fluid animated" alt="">
+          {{-- <img src="assets/img/hero.svg" class="img-fluid animated" alt=""> --}}
+          <div class="d-flex justify-content-end">
+            <img src="assets/img/logo_polri.png" class="img-fluid animated" alt="">
+        </div>
+        
         </div>
       </div>
     </div>
@@ -69,7 +72,7 @@
               <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
                   <h3>PLATFORM SIGAPNET</h3>
                   <p>
-                      Adalah platform digital yang dirancang untuk memfasilitasi masyarakat dalam menyampaikan keluhan terkait gangguan layanan internet dan telepon. Sistem ini mempermudah proses pelaporan, pemantauan, dan penyelesaian gangguan melalui alur yang terintegrasi antara pelanggan, penyedia layanan, dan pihak terkait lainnya.
+                      Adalah platform digital yang dirancang untuk memfasilitasi jajaran POLDA, POLRES, dan POLSEK dalam menyampaikan keluhan terkait gangguan layanan internet dan telepon. Sistem ini mempermudah proses pelaporan, pemantauan, dan penyelesaian gangguan melalui alur yang terintegrasi antara pelanggan, penyedia layanan, dan pihak terkait lainnya.
                   </p>
                   <h3>TUJUAN SIGAPNET</h3>
                   <ul>
@@ -80,7 +83,7 @@
               <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
                   <h3>KOMITMEN SIGAPNET</h3>
                   <p>
-                      Kami berkomitmen untuk memberikan pelayanan terbaik dan transparan dalam menangani setiap keluhan masyarakat. Kami percaya bahwa kepercayaan pelanggan terhadap layanan internet dan telepon sangat penting, dan SIGAPNET hadir untuk memastikan bahwa setiap gangguan dapat segera teratasi dengan cepat dan tepat.
+                      Kami berkomitmen untuk memberikan pelayanan terbaik dan transparan dalam menangani setiap keluhan jajaran POLDA, POLRES, dan POLSEK. Kami percaya bahwa kepercayaan pelanggan terhadap layanan internet dan telepon sangat penting, dan SIGAPNET hadir untuk memastikan bahwa setiap gangguan dapat segera teratasi dengan cepat dan tepat.
                   </p>
                   <a href="#services" class="btn-learn-more">Mekanisme Alur Pengaduan</a>
               </div>
@@ -113,8 +116,8 @@
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Pengguna</strong><br>Jumlah Pengguna SIGAPNET</p>
+                    <span data-purecounter-start="0" data-purecounter-end="{{ $visitorCount }}" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Pengunjung</strong><br>Jumlah Pengunjung SIGAPNET</p>
                   </div>
                 </div>
 
@@ -126,10 +129,12 @@
                   </div>
                 </div>
 
+            
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-clock"></i>
                     <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
+
                     <p><strong>Selesai</strong> <br> Jumlah Laporan yang Berhasil Ditangani</p>
                   </div>
                 </div>

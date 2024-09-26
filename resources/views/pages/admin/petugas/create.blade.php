@@ -18,24 +18,24 @@ Data Petugas
       <div class="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800">
 
         <label class="block text-sm">
-          <span class="text-gray-700 dark:text-gray-400">NIK</span>
+          <span class="text-gray-700 dark:text-gray-400">NIP/NRP</span>
           <input
             class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-red-400 focus:outline-none focus:shadow-outline-red dark:focus:shadow-outline-gray"
-            type="text" placeholder="NIK" value="{{ old('nik')}}" name="nik"></input>
+            type="text" placeholder="NIP/NRP" value="{{ old('nik')}}" name="nik"></input>
         </label>
 
         <label class="block mt-4 text-sm">
           <span class="text-gray-700 dark:text-gray-400">Name</span>
           <input
             class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-red-400 focus:outline-none focus:shadow-outline-red dark:focus:shadow-outline-gray"
-            type="text" placeholder="John Doe" value="{{ old('name')}}" name="name"></input>
+            type="text" placeholder="Zakaria" value="{{ old('name')}}" name="name"></input>
         </label>
 
         <label class="block mt-4 text-sm">
           <span class="text-gray-700 dark:text-gray-400">Email</span>
           <input
             class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-red-400 focus:outline-none focus:shadow-outline-red dark:focus:shadow-outline-gray"
-            type="email" placeholder="email@email.com" value="{{ old('email')}}" name="email"></input>
+            type="email" placeholder="email@example.com" value="{{ old('email')}}" name="email"></input>
         </label>
 
         <label class="block mt-4 text-sm">

@@ -3,7 +3,7 @@
   <div class="py-4 text-gray-500 dark:text-gray-400">
     
     <div class="flex items-center justify-center">
-      <img src="assets/img/logo_sigapnet_biru.png" alt="SIGAPNET Logo" class="w-12 h-auto">
+      <img src="{{ asset('assets/img/logo_sigapnet_biru.png')}}" alt="SIGAPNET Logo" class="w-12 h-auto">
       <span class="ml-3 text-lg font-semibold text-gray-800 dark:text-gray-200 font-poppins">SIGAPNET</span>
     </div>
     
@@ -59,7 +59,7 @@
               d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z">
             </path>
           </svg>
-          <span class="ml-4">Masyarakat</span>
+          <span class="ml-4">Pengguna</span>
         </a>
       </li>
     </ul>
