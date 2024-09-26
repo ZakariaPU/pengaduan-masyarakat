@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 
   <title>SIGAPNET</title>
   <meta content="" name="description">
@@ -43,14 +45,14 @@
           <div data-aos="fade-up" data-aos-delay="800">
             <a href="{{ url('login')}}" class="btn-get-started scrollto">Pengaduan</a>
            
-            <a href="#services" class="btn-get-started-2 scrollto">Mekanisme Pengaduan</a>
+            <a href="#services" class="btn-get-started-2 scrollto">Mekanisme</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          {{-- <img src="assets/img/hero.svg" class="img-fluid animated" alt=""> --}}
-          <div class="d-flex justify-content-end">
+          <img src="assets/img/hero.svg" class="img-fluid animated" alt="">
+          {{-- <div class="d-flex justify-content-end">
             <img src="assets/img/logo_polri.png" class="img-fluid animated" alt="">
-        </div>
+        </div> --}}
         
         </div>
       </div>
@@ -214,16 +216,17 @@
 
       <!-- WhatsApp Button -->
       <a href="https://wa.me/6281232648897" class="wa-button hidden" target="_blank">
-        <img src="https://www.tanjunglesung.com/wp-content/uploads/2018/12/logo-wa-whatsapp-300x300.png" alt="WhatsApp Chat" />
+        <i class="fab fa-whatsapp"></i> <!-- Ikon Font Awesome -->
       </a>
+      
 
       <!-- WhatsApp Button CSS -->
       <style>
-
         .wa-button {
+            font-size: 40px;  /* Atur ukuran ikon */
             position: fixed;
             bottom: 90px; /* Naikkan dari posisi default 20px menjadi 80px */
-            right: 10px;
+            right: 3px;
             z-index: 1000;
             width: 50px;
             height: 50px;

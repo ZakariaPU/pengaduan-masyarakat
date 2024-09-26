@@ -26,13 +26,14 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
-          <li><a class="nav-link scrollto" href="#about">ABOUT ME</a></li>   
-          <div> <a class="border-solid" href="{{ url('login')}}">LOGIN</a></div>
-          <div> <a class="border-solid" href="{{ url('register')}}">REGISTER</a></div>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Me</a></li>   
+          <div> <a class="border-solid" href="{{ url('login')}}">Login</a></div>
+          <div> <a class="border-solid" href="{{ url('register')}}">Register</a></div>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
+      
 
     </div>
   </header><!-- End Header -->
