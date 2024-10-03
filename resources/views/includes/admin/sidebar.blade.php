@@ -3,8 +3,14 @@
   <div class="py-4 text-gray-500 dark:text-gray-400">
     
     <div class="flex items-center justify-center">
-      <img src="{{ asset('assets/img/logo_sigapnet_biru.png')}}" alt="SIGAPNET Logo" class="w-12 h-auto">
-      <span class="ml-3 text-lg font-semibold text-gray-800 dark:text-gray-200 font-poppins">SIGAPNET</span>
+      <img src="{{ asset('assets/img/logo_polri.png')}}" alt="SIGAPNET Logo" class="w-12 h-auto">
+      <div>
+        <!-- Ganti warna SIGAPNET dengan efek bayangan -->
+        <a href="#" style="text-decoration: none; font-size: 1.2rem; font-weight: bold; color: #edc37b; text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);">SIGAPNET</a>
+        <br>
+        <!-- Ganti warna BID TIK POLDA DIY dengan efek bayangan -->
+        <span style="font-size: 0.8rem; color: #edc37b; text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);">BID TIK POLDA DIY</span>
+      </div>
     </div>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -115,7 +121,7 @@
   @keydown.escape="closeSideMenu">
   <div class="py-4 text-gray-500 dark:text-gray-400">
     <a class="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200" href="#">
-      APLIKASIKU
+      SIGAPNET
     </a>
     <ul class="mt-6">
       <li class="relative px-6 py-3">

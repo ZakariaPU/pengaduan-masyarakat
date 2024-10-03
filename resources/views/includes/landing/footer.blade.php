@@ -11,10 +11,10 @@
       <h3>MENU</h3>
       <ul>
         <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
-        <li><a href="#"><i class="fas fa-chevron-right"></i> About Me</a></li>
-        <li><a href="#"><i class="fas fa-chevron-right"></i> Alur Pengaduan</a></li>
-        <li><a href="#"><i class="fas fa-chevron-right"></i> Login</a></li>
-        <li><a href="#"><i class="fas fa-chevron-right"></i> Register</a></li>
+        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Me</a></li>
+        <li><a href="#services"><i class="fas fa-chevron-right"></i> Mekanisme Pengaduan</a></li>
+        <li><a href="{{ url('login')}}"><i class="fas fa-chevron-right"></i> Login</a></li>
+        <li><a href="{{ url('register')}}"><i class="fas fa-chevron-right"></i> Register</a></li>
       </ul>
     </div>
     
@@ -22,13 +22,14 @@
       <h3>SOSIAL MEDIA</h3>
       <p>Temukan kami di Sosial Media:</p>
       <div class="social-links">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="#"><i class="fab fa-tiktok"></i></a>
-      </div>
+        <a href="https://m.facebook.com/poldajogja/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/poldajogja?igsh=eXA4emhqdnV2djJi" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com/PoldaJogja" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://youtube.com/@poldajogja?si=ZY6d-OFDliloRKTv" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/@poldajogja" target="_blank"><i class="fab fa-tiktok"></i></a>
+      </div>      
     </div>
+    
   </div>
   <div class="footer-bottom">
     &copy; Copyright 2024 <b>Kepolisian Daerah Istimewa Yogyakarta </b>
@@ -101,7 +102,7 @@ body {
 }
 
 .footer-section ul li a:hover {
-  color: #ccc;  /* Efek hover untuk tampilan lebih interaktif */
+  color: #ffb638  /* Efek hover untuk tampilan lebih interaktif */
 }
 
 .footer-section .social-links a {
@@ -125,6 +126,17 @@ body {
   font-size: 14px;
   background-color: #222;
 }
+
+.social-links a {
+    font-size: 50px; /* Sesuaikan ukuran font sesuai kebutuhan */
+    margin: 0 10px; /* Spasi antar ikon */
+    color: #000; /* Ganti dengan warna yang diinginkan */
+    transition: transform 0.2s; /* Efek transisi saat hover */
+  }
+
+  .social-links a:hover {
+    transform: scale(1.7); /* Membesarkan ikon saat hover */
+  }
 
 @media (max-width: 768px) {
   .footer-container {

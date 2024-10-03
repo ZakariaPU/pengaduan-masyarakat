@@ -3,21 +3,27 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1>
-          <a href="index.html">
-            <img id="logo-sigapnet" src="assets/img/logo_sigapnet.png" class="img-fluid" alt="SIGAPNET Logo">
+        <h1 style="display: flex; align-items: center;">
+          <a href="#">
+            <img id="logo-sigapnet" src="assets/img/logo_polri.png" class="img-fluid" alt="SIGAPNET Logo" style="margin-right: 15px;">
           </a>
-          <a href="index.html"></a>
+          <div>
+            <!-- Ganti warna SIGAPNET dengan efek bayangan -->
+            <a href="#" style="text-decoration: none; font-size: 1.2rem; font-weight: bold; color: #edc37b; text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);">SIGAPNET</a>
+            <br>
+            <!-- Ganti warna BID TIK POLDA DIY dengan efek bayangan -->
+            <span style="font-size: 0.8rem; color: #edc37b; text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);">BID TIK POLDA DIY</span>
+          </div>
         </h1>
+        
+        
 
-        <style>
-
+        {{-- <style>
           #logo-sigapnet {
-            width: 80px;
+            width: 100px;
             height: auto;
           }
-
-        </style>
+        </style> --}}
       
         
         <!-- Uncomment below if you prefer to use an image logo -->
