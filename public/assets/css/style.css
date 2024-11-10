@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family:  "poppins";
   color: #444444;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins";
 }
 
 /*--------------------------------------------------------------
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
-  background: #00384e;
+  background: linear-gradient(135deg, #0f2d4d, #001a24);
 }
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #222222;
+  color: #fff6f6;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started-2 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins";
   font-weight: 800;
   font-size: 16px;
   letter-spacing: 1px;
@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins";
   font-weight: 800;
   font-size: 16px;
   letter-spacing: 1px;
@@ -401,7 +401,7 @@ section {
   margin-bottom: 0;
 }
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -463,7 +463,7 @@ section {
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins";
   font-size: 14px;
   color: #484848;
 }
@@ -473,7 +473,7 @@ section {
   margin-top: 20px;
   color: #484848;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   transition: ease-in-out 0.3s;
 }
 .counts .content .count-box a:hover {
