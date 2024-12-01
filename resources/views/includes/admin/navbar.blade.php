@@ -69,8 +69,8 @@
       font-size: 0.875rem;
       font-weight: 500;
       padding: 0.5rem 1rem;
-      background: rgba(79, 255, 176, 0.05);
-      border: 1px solid rgba(79, 255, 176, 0.2);
+      /* background: rgba(79, 255, 176, 0.05); */
+      /* border: 1px solid rgba(79, 255, 176, 0.2); */
       border-radius: 0.5rem;
   }
 

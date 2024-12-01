@@ -121,7 +121,7 @@
           <img src="{{ asset('assets/img/logo_polri.png')}}" alt="SIGAPNET Logo" class="logo-image">
           <div class="logo-text">
               <a href="#" class="brand-name">SIGAPTELNET</a>
-              <span class="sub-brand">BID TIK POLDA DIY</span>
+              {{-- <span class="sub-brand">BID TIK POLDA DIY</span> --}}
           </div>
       </div>
 
