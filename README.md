@@ -26,13 +26,9 @@ composer --version
 yarn --version
 ```
 ### 2. Clone Repository Project App
-- Clone with `ssh`
-    ```sh
-    git@github.com:luthfyhakim/pengaduan-masyarakat.git
-    ```
 - Clone with `https`
     ```sh
-    https://github.com/luthfyhakim/pengaduan-masyarakat.git
+   https://github.com/ZakariaPU/pengaduan-masyarakat.git
     ```
 
 switch to the repo folder
