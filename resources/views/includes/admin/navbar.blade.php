@@ -1,3 +1,4 @@
+
 <style>
   /* Header Container */
   .header {
@@ -44,10 +45,10 @@
   .theme-toggle {
       color: #4FFFB0;
       padding: 0.75rem;
-      border-radius: 0.5rem;
+      /* border-radius: 0.5rem; */
       transition: all 0.3s ease;
-      border: 1px solid rgba(79, 255, 176, 0.2);
-      background: rgba(79, 255, 176, 0.05);
+      /* border: 1px solid rgba(79, 255, 176, 0.2); */
+      /* background: rgba(79, 255, 176, 0.05); */
       display: flex;
       align-items: center;
       justify-content: center;
@@ -209,3 +210,4 @@
       </div>
   </div>
 </header>
+

@@ -10,7 +10,7 @@
     .thead{
     background-color: #FEB139;
     color: #ffffff;
-    
+    font-family: 'Poppins';font-size: 22px;
     }
   </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -19,7 +19,7 @@
 <body>
   <div class="container mt-5">
     <div class="title text-center mb-5">
-      <h2>Laporan Layanan Pengaduan Online</h2>
+      <h2>Laporan Pengaduan Gangguan Internet & Telepon</h2>
     </div>
     <table class="table table-bordered">
       <thead class="thead">

@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
 
 
   <title>SIGAPTELNET</title>
@@ -551,23 +552,7 @@ body {
                 <div class="logo-container">
                     <img src="assets/img/logo_polri.png" alt="Logo" class="logo">
                 </div>
-                <div class="stats-bar">
-                    <div class="stat-item">
-                        <i class="fas fa-ticket-alt"></i>
-                        <span class="counter">896</span>
-                        <span class="label">Pengaduan Selesai</span>
-                    </div>
-                    <div class="stat-item">
-                        <i class="fas fa-clock"></i>
-                        <span class="counter">4.5</span>
-                        <span class="label">Jam Rata-rata Respon</span>
-                    </div>
-                    <div class="stat-item">
-                        <i class="fas fa-users"></i>
-                        <span class="counter">98</span>
-                        <span class="label">% Kepuasan</span>
-                    </div>
-                </div>
+                {{-- Disini --}}
             </div>
 
             <!-- Main Content -->

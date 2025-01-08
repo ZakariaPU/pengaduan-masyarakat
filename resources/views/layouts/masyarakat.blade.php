@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="SIGAPNET - Sistem Informasi Pengaduan Layanan Internet & Telepon">
-    <title>@yield('title') - SIGAPNET</title>
+    <meta name="description" content="SIGAPTELNET - Sistem Informasi Pengaduan Layanan Internet & Telepon">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.0/dist/cdn.min.js" defer></script>
+
+    <title>@yield('title') - SIGAPTELNET</title>
 
     <!-- Preload Critical Resources -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
